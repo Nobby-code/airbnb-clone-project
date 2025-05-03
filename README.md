@@ -57,4 +57,9 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 - **Secure payment**: Secure online transactions and payment data through using https in all transactions and encrypt data in transit
 - Purpose: Protect users financial information and build trust with users
 - **Secure  data sorage**: to safeguard user data at rest
-- -Purpose: prevent data leaks incase the database is compromised
+- Purpose: prevent data leaks incase the database is compromised
+
+**CI/CD Pipeline**
+CI (Continuous Integration) - Automatically tests  and code sent to a respository e.g. Github, Linting
+CD (Continuos Deployment) - Automatically deploys code to production after passing all the set tests e.g. Docker, which ensures consistent environment in staging and prodcution
+
