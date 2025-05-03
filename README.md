@@ -3,10 +3,10 @@
 The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables the developers to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
 
 **Team Roles**
-- Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.
-- Database Administrator: Manages database design, indexing, and optimizations.
-- DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
-- QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
+- **Backend Developer**: Responsible for implementing API endpoints, database schemas, and business logic.
+- **Database Administrator**: Manages database design, indexing, and optimizations.
+- **DevOps Engineer**: Handles deployment, monitoring, and scaling of the backend services.
+- **QA Engineer**: Ensures the backend functionalities are thoroughly tested and meet quality standards.
 
 **Technology Stack**
 - **Django**: A high-level Python web framework used for building the RESTful API.
@@ -17,3 +17,10 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 - **Redis**: Used for caching and session management.
 - **Docker**: Containerization tool for consistent development and deployment environments.
 - **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
+
+**Database Design**
+**Users**: Fields for this entity are Id, Username, Contact, RoomId, BookingTime
+**Properties**: Id, Propertyname, price, status
+**Bookings**: Id, UserId, Timestamp
+**Reviews**: Id, UserId, ProperrtyId, ReviewCount, Rating
+**Payments**: Id, PropertyId, UserId, Timestamp, Timestamp
