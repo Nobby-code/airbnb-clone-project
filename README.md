@@ -50,9 +50,9 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 **Caching**: Use caching strategies to reduce database load and improve performance.
 
 **API Security**
--**Authentication** - Verifying user identification before granting access, using secure session management. 
--Importance: This protects user accounts from unauthorized access and preventing attackers from impersonating legitimate users
--**Authorization** - This is to control access levels for the registered users by enforcing role-base access.
+- **Authentication** - Verifying user identification before granting access, using secure session management. 
+- Importance: This protects user accounts from unauthorized access and preventing attackers from impersonating legitimate users
+- **Authorization** - This is to control access levels for the registered users by enforcing role-base access.
 - **Purpose**: Prevents unauthorized actions, such as a guest editing someone else's property or a user viewing another’s payment history.
 - **Secure payment**: Secure online transactions and payment data through using https in all transactions and encrypt data in transit
 - Purpose: Protect users financial information and build trust with users
