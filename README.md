@@ -19,11 +19,11 @@
 - **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
 
 **Database Design**
-**Users**: Fields for this entity are Id, Username, Contact, RoomId, BookingTime
-**Properties**: Id, Propertyname, price, status
-**Bookings**: Id, UserId, Timestamp
-**Reviews**: Id, UserId, ProperrtyId, ReviewCount, Rating
-**Payments**: Id, PropertyId, UserId, Timestamp, Timestamp
+**Users**: Fields for this entity are Id (primary key), Username, Contact, RoomId, BookingTime
+**Properties**: Id(Primary key), Propertyname, price, status, UserId(User foreign Key)
+**Bookings**: Id(Primary key), UserId(Foreign key from Users), PaymentId (Foreign Key from Payments table), Timestamp
+**Reviews**: Id (Primary key), UserId (Foreign key from Users), PropertyId (Foreign key from Properties table), ReviewCount, Rating
+**Payments**: Id (Primary key), PropertyId (foreign key from Properties table), UserId (Foreign Key from Users table), Timestamp
 
 **Feature Breakdown**
 - **1. API Documentation**
