@@ -1,6 +1,6 @@
 # airbnb-clone-project
 **About the Project**
-The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables the developers to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
+- The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables the developers to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
 
 **Team Roles**
 - **Backend Developer**: Responsible for implementing API endpoints, database schemas, and business logic.
@@ -26,10 +26,10 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 **Payments**: Id, PropertyId, UserId, Timestamp, Timestamp
 
 **Feature Breakdown**
--**1. API Documentation**
-**OpenAPI Standar**d: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
-**Django REST Framework**: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
-**GraphQL**: Offers a flexible and efficient query mechanism for interacting with the backend.
+- **1. API Documentation**
+- **OpenAPI Standar**d: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
+- **Django REST Framework**: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
+- **GraphQL**: Offers a flexible and efficient query mechanism for interacting with the backend.
 -**2. User Authentication**
 **Endpoints**: /users/, /users/{user_id}/
 **Features**: Register new users, authenticate, and manage user profiles.
